@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dev-dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve"
+  }
+}
