@@ -1,0 +1,14 @@
+<div>Message: <span @text="text"></div>
+
+<style webc:scoped>
+  :host {
+    div {
+      border: 2px solid black;
+      padding: 10px;
+      font-weight: bold;
+    }
+    span {
+      font-style: italic;
+    }
+  }
+</style>

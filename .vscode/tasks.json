@@ -3,9 +3,15 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "serve",
+			"script": "install",
 			"problemMatcher": [],
-			"label": "npm: serve",
+			"label": "npm: install",
+			"detail": "install dependencies from package"
+		}, {
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
 			"detail": "npx @11ty/eleventy --serve"
 		}
 	]

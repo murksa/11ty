@@ -8,8 +8,9 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"eseom.nunjucks-template",
-				"Tyriar.lorem-ipsum"
+				"Tyriar.lorem-ipsum",
+				"fynn.vscode-webc",
+				"EditorConfig.EditorConfig"
 			]
 		}
 	}

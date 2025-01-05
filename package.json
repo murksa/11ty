@@ -1,9 +1,10 @@
 {
   "type": "module",
-  "dev-dependencies": {
-    "@11ty/eleventy": "^3.0.0"
-  },
   "scripts": {
-    "serve": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve --incremental"
+  },
+  "devDependencies": {
+		"@11ty/eleventy": "^3.0.0",
+		"@11ty/eleventy-plugin-webc": "^0.11.2"
   }
 }
