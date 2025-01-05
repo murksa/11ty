@@ -8,4 +8,5 @@ export default function(eleventyConfig) {
 			"components/**/*.webc",
 		]
 	});
+	eleventyConfig.addPassthroughCopy({"copy/css": "css"})
 };
